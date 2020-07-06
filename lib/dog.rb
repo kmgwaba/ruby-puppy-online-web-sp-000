@@ -6,5 +6,6 @@ class Dog
     @name = name
   end
   def Dog.all
+    @@all 
   end
 end
